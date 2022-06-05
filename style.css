@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Code;
+    src: url(Cascadia.ttf);
+}
+
+body {
+    font-family: Code;
+    margin: 0;
+    padding: 0;
+    background-color: #ebe7d9;
+}
+
+.title-header h1 {
+    color: #282c34;
+    font-size: 78px;
+    margin: 400px auto 0;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.icons {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
