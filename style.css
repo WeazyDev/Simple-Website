@@ -12,17 +12,19 @@ body {
 
 .title-header h1 {
     color: #282c34;
+    margin: 450px auto 0;
     font-size: 78px;
-    margin: 400px auto 0;
     text-align: center;
     font-weight: lighter;
 }
 
-.icons {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.socials {
+    margin: 10px auto;
+    text-align: center;
     font-size: 30px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #282c34;
 }
