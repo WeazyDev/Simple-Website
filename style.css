@@ -3,6 +3,11 @@
     src: url(Cascadia.ttf);
 }
 
+@font-face {
+    font-family: Gotham;
+    src: url(Gotham-bold.ttf)
+}
+
 body {
     font-family: Code;
     margin: 0;
@@ -27,4 +32,58 @@ body {
 .socials a {
     text-decoration: none;
     color: #282c34;
+}
+.song-box {
+    color: #ffffff;
+    width: 250px;
+    height: 160px;
+    background-color: #282c34;
+    border-radius: 30px;
+    position: absolute;
+    top: 90%;
+    left: 100%;
+    transform: translate(-100%, -90%);
+    overflow: hidden;
+}
+
+.song-box a {
+    color: #ffffff;
+    overflow:hidden;
+    text-decoration: none;
+}
+
+.track-details {
+    height: auto;
+    width: auto;
+    font-family: Gotham;
+    text-align: center;
+}
+
+.track-details a:last-child {
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+}
+
+.song-box img {
+    height: 50px;  
+    width: 50px;
+    padding: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.spotify {
+    display: inline;
+    margin: auto;
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    font-family: Gotham;
+}
+
+.spotify p {
+    margin: 0;
 }
